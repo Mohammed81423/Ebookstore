@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+:root{
+--cardo-font-family: 'Cardo', serif;
+--inter-font-family: 'Inter', sans-serif;
+--poppins-font-family: 'Poppins', sans-serif;
+--primary-color:#1B3764;
+--secondary-color:#FFCA42;
+--tertiary-color:#F9FBFF;
+
+}
