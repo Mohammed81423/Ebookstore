@@ -1042,3 +1042,319 @@ ul li {
     padding: .4rem;
 
 }
+
+
+
+/* @media  */
+
+@media only screen and (max-width: 780px) {
+    body {
+        font-family: 'Inter', sans-serif;
+    }
+
+    nav {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav #logo {
+        gap: 10px;
+        font-size: 1.5rem;
+    }
+
+    #navitems {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #navbtn {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+
+    .hero {
+        padding: 0 20px;
+        flex-direction: column;
+    }
+
+    .textblock {
+        margin-top: 50px;
+    }
+
+    .textblock h1 {
+        font-size: 2rem;
+    }
+
+    #imageblock img {
+        width: 100%;
+    }
+
+    #btnsection {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #btnsection button {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+
+    .abtauthor {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    #img2 {
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .img-div img {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .text-div {
+        padding: 20px;
+    }
+
+    .text-div h2 {
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+    .text-div p {
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        padding: 10px 0;
+    }
+
+    .number,
+    .line2 {
+        display: none;
+    }
+
+    .qr {
+        height: auto;
+        right: 0;
+    }
+
+    .best {
+        font-size: 2rem;
+        padding-top: 30px;
+    }
+
+    .main-logo {
+        flex-direction: column;
+        padding: 2rem 10px;
+    }
+
+    .logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text000 {
+        gap: 10px;
+    }
+
+    .text000 span {
+        font-size: 1.5rem;
+        line-height: 120%;
+    }
+
+    .text000 p {
+        font-size: 1rem;
+        line-height: 170%;
+        margin-top: 10px;
+    }
+
+    .fourth-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .copy-text,
+    .true {
+        font-size: 1.5rem;
+        letter-spacing: -0.5px;
+    }
+
+    .btn-div {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .book {
+        border-bottom: 3px solid var(--secondary-color);
+    }
+
+    .main-container3,
+    .main-container4 {
+        width: 100%;
+    }
+
+    .text2 {
+        grid-template-areas: "one" "two" "three" "four";
+    }
+
+    .hdfs {
+        font-size: 1.3rem;
+        line-height: 140%;
+        margin: 0.7rem 0;
+    }
+
+    .img2 img {
+        width: 100%;
+    }
+
+    .number2 {
+        right: 0.5rem;
+        top: 0.5rem;
+    }
+
+    .will {
+        font-size: 2rem;
+        line-height: 120%;
+        margin: 1rem 0;
+    }
+
+    .main-container4 .chapter-div {
+        width: 100%;
+    }
+
+    .chapter,
+    .demo h4 {
+        font-size: 1.5rem;
+    }
+
+    .demo p {
+        font-size: 0.9rem;
+        line-height: 170%;
+    }
+
+    .dash {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .length,
+    .trail p {
+        font-size: 1.5rem;
+        letter-spacing: -0.5px;
+    }
+
+    .trail {
+        margin-top: 2rem;
+    }
+
+    .short {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .descrip {
+        font-size: 1rem;
+    }
+
+    .qus {
+        font-size: 1rem;
+        text-decoration-line: underline;
+    }
+
+    .chain {
+        font-size: 3rem;
+    }
+
+    .border-main {
+        flex-direction: column;
+    }
+
+    #third-img {
+        top: 2rem;
+    }
+
+    .main-div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .philips {
+        width: 100%;
+        height: auto;
+        margin: 2rem 0;
+    }
+
+    .read {
+        font-size: 1.5rem;
+        line-height: 120%;
+    }
+
+    .pass {
+        font-size: 1rem;
+        margin-top: 1.6rem;
+    }
+
+    .text-container a {
+        font-size: 1.2rem;
+    }
+
+    .over {
+        font-size: 1.5rem;
+        line-height: 180%;
+    }
+
+    .img-4 {
+        width: 30%;
+        margin-top: 2rem;
+    }
+
+    .resources {
+        .head {
+            font-size: 2rem;
+            padding: 1rem;
+        }
+
+        .energy {
+            font-size: 1.5rem;
+        }
+
+        .hiter {
+            font-size: 1rem;
+            line-height: 180%;
+        }
+
+        .reader {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .reader a {
+            font-size: 1.2rem;
+            line-height: 125%;
+        }
+
+        .reader p {
+            font-size: 1.1rem;
+            line-height: 125%;
+        }
+    }
+
+    .subscribe {
+        padding: 2rem;
+    }
+
+    .free {
+        width: 100%;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .head {
+        font-size: 2rem;
+    }
